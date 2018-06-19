@@ -1,0 +1,189 @@
+#body-pipeline{
+    background-color: #0f0f0f;
+    color: white;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#pipeline h1{
+    padding-top: 100px;
+    text-justify: center;
+}
+
+
+#pipeline{
+    text-justify: center;
+    text-align: center;
+    line-height: 1.8em;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:1024px){
+    #pipeline h1{
+        padding-top: 150px;
+    }
+}
+
+.text-pipeline h2{
+    font-size: 2.2em;
+    text-justify: center;
+    padding-top: 5px;
+}
+
+p{
+    text-justify: center;
+    padding-bottom: 5px;
+    line-height: 1.8em;
+}
+
+#pipeline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-justify: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.text-pipeline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-justify: center;
+    text-align:center;
+    margin: 0 auto;
+    width:70%;
+}
+
+@media screen and (min-width: 1024px){
+    .text-pipeline{
+        padding: 30px;
+    }
+}
+
+.right-image{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 60px;
+}
+
+.left-image{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 60px;
+}
+
+@media screen and (min-width: 1024px){
+    .right-image{
+        flex-direction: row-reverse;
+    }  
+
+    .left-image{
+        flex-direction: row;
+    }
+}
+
+/*Storyboard*/
+
+#image-story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#image-story img{
+    width: 80%;
+    padding: 10px;
+}
+
+@media screen and (min-width: 1024px){
+    #image-story{
+        flex: 90%;
+    }
+
+}
+
+/*Arte*/
+
+#image-art{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#image-art img{
+    width: 80%;
+    padding: 10px;
+}
+
+@media screen and (min-width: 1024px){
+    #image-art{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #image-art img{
+        width: 100%;
+    }
+
+
+}
+
+/*Modelagem ou desenho*/
+
+#image-modelling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#image-modelling img{
+    width: 40%;
+}
+
+@media screen and (min-width: 1024px){
+    #image-modelling img{
+        width: 65%;
+    }
+}
+
+/*Animação*/
+
+#image-animation{
+    display: flex;
+    flex: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#image-animation iframe{
+    margin: 15px;
+    border: 0px;
+    width: 300px;
+    height: 200px;
+}
+
+@media screen and (min-width: 600px){
+    #image-animation iframe{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #image-animation iframe{
+        width: 700px;
+        height: 400px;
+    }
+}

@@ -1,0 +1,72 @@
+.history-image{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.history-time{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.history-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.hitory-text h2{
+    font-size: 2em;
+}
+
+#anos20{
+    padding-top: 150px;
+}
+
+#merrie{
+    background-color:#afafaf;
+}
+
+#hanna{
+    background-color:#5F5F5F;
+    color: white;
+}
+
+#today{
+    background-color:#0f0f0f;
+    color: white;
+}
+
+#today img{
+    width:130%;
+}
+
+@media screen and (min-width: 900px){
+    .history-time{
+        flex-direction: row;
+    }
+
+    #merrie{
+        flex-direction: row-reverse;
+    }
+
+    #today{
+        flex-direction: row-reverse;
+    }
+
+    .history-text{
+        padding: 70px;
+    }
+
+    #today img{
+        width:100%;
+    }
+}
